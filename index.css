@@ -1,0 +1,76 @@
+:root {
+  --bg: #f8f5ef;
+  --bg-soft: #fbf9f5;
+  --card: #ffffff;
+  --card-soft: #fffaf4;
+  --ink: #28231f;
+  --muted: #716a63;
+  --gold: #a97643;
+  --gold-soft: #f1e7d9;
+  --border: rgba(56, 44, 34, 0.12);
+  --shadow: 0 18px 40px rgba(41, 32, 24, 0.075);
+  --success: #2d7353;
+  --warning: #9c6a2f;
+  --error: #b42318;
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ink);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(180deg, #f8f5ef 0%, #fcfaf6 100%);
+  color: var(--ink);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+input,
+select {
+  border: 1px solid var(--border);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
